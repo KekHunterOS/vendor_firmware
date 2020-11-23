@@ -6,7 +6,7 @@
 # fw-zd1211 : https://packages.debian.org/stretch/kernel/firmware-zd1211
 
 PRODUCT_SOONG_NAMESPACES += \
-    vendor/firmware
+    vendor/firmware/atheros
 
 PRODUCT_COPY_FILES += \
     vendor/firmware/atheros/ath3k-1.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/rt2561.bin \
