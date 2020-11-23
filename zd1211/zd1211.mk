@@ -6,7 +6,7 @@
 # fw-zd1211 : https://packages.debian.org/stretch/kernel/firmware-zd1211
 
 PRODUCT_SOONG_NAMESPACES += \
-    vendor/firmware
+    vendor/firmware/zd1211
 
 PRODUCT_COPY_FILES += \
     vendor/firmware/zd1211/zd1211b_ub:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/zd1211b_ub \
